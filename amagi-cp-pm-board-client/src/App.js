@@ -1,8 +1,6 @@
 /*eslint-disable*/
 import React from 'react';
 import './App.css';
-import LogIn from './login.js';
-import ChangePassword from './setpassword.js';
 import Dashboard from './dashboard.js';
 import AccountsTable from './AccountsTable.js';
 import Chart from './VersionCharts.js';
@@ -49,14 +47,8 @@ class App extends React.Component {
      switch (this.state.screenName)
      {
 
-       case "login":
-       displayPage = <LogIn showScreen={this.showScreen} setUserDetails = {this.setUserDetails} getServerURL={this.getServerURL}/>;
-       break;
        case "dashboard":
        displayPage = <Dashboard showScreen={this.showScreen} getUserDetails = {this.getUserDetails}/>;
-       break;
-       case "changePassword":
-       displayPage = <ChangePassword showScreen={this.showScreen} getUserDetails={this.getUserDetails} getServerURL={this.getServerURL}/>;
        break;
        case "cloudportVersions":
        displayPage = <Chart showScreen={this.showScreen}/>;
@@ -68,8 +60,6 @@ class App extends React.Component {
       return (
          <div>
      {displayPage}
-
-
          </div>
       );
    }

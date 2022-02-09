@@ -117,11 +117,6 @@ class Dashboard extends React.Component{
                 Account Tracker
             </Button>
           </div>
-          <br/>
-          <Button onClick={this.handleBack}variant="contained" color="primary">
-              Logout
-            </Button>
-            <Link style={{fontSize:"12px"}} href="#" onClick={this.handleChangePassword}>Change Password</Link>
         </div>
 
     );
