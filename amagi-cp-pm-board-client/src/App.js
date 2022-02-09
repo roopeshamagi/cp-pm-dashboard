@@ -1,18 +1,10 @@
 /*eslint-disable*/
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import LogIn from './login.js';
 import ChangePassword from './setpassword.js';
 import Dashboard from './dashboard.js';
-import ServerAllocation from './ServerAllocation.js';
-import ServerAllocationTable from './ServerAllocationTable.js';
-import RemoteReboot from './RemoteReboot.js';
-import IssueTracker from './IssueTracker.js';
-import PickupandDropJobTable from './PickupandDropJobTable.js';
-import StringsTable from './StringsTable.js';
 import AccountsTable from './AccountsTable.js';
-import CaptureCards from './CaptureCards.js';
 import Chart from './VersionCharts.js';
 
 class App extends React.Component {

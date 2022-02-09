@@ -40,42 +40,6 @@ app.get("/accountslist",(req,res) =>{
         }
 })
 
-app.get("/temp",(req,res) =>{
-
-    var list = [{
-        "url": "https://abscbn.amagi.tv/version",
-        "version": "v7.3.27\n"
-    }, {
-        "url": "https://accu-weather.amagi.tv/version",
-        "version": "v7.5.12\n"
-    }, {
-        "url": "https://adn.amagi.tv/version",
-        "version": "v7.5.18\n"
-    }, {
-        "url": "https://aenetworks.amagi.tv/version",
-        "version": "v7.3.15.1\n"
-    }, {
-        "url": "https://aenetworksitalia.amagi.tv/version",
-        "version": "v7.2.13\n"
-    }, {
-        "url": "https://africaxp.amagi.tv/version",
-        "version": "v6.3.16\n"
-    }, {
-        "url": "https://alchimie.amagi.tv/version",
-        "version": "v7.4.25\n"
-    }];
-    
-    var counter = _.countBy(list,'version');
-    console.log(_.size(counter));
-    console.log(counter);
-    
-})
-
-function readversions()
-{
-    
-}
-
 app.get("/versions",(req,res) =>{
     //const urls = [];
     var versions = [];
@@ -96,7 +60,6 @@ app.get("/versions",(req,res) =>{
        })
 })
 
-var lastInvokedDate = null;
 app.get("/versionlist",(req,res) =>{
     //const urls = [];
     getVersionList();
