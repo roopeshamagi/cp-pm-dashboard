@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 	res.send("Welcome to Amagi Server!!!")
 })
 
-function getVersionList() {
+function init() {
     jsonfile.readFile(urlsFile, function (err, urls) {
         if (err) 
         {
