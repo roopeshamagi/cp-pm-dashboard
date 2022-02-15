@@ -127,15 +127,15 @@ class Chart extends Component{
                },
                success: function (result) {
                    console.log("versions-->"+JSON.stringify(result));
-                   result = _.sortBy(result,'version');
-                   var counter = _.countBy(result,'version');
+                   var result_versions = _.sortBy(result.versions,'version');
+                   var counter = _.countBy(result_versions,'version');
                    var size = _.size(counter);
                    //console.log();
                    console.log(counter);
                    console.log();
                    console.log("-----------")
                    var chart =  temp_this.setState({
-                     totalCount:result.length,
+                     totalCount:result_versions.length,
                     chartData:{
                       labels: _.keys(counter),
                       datasets:[

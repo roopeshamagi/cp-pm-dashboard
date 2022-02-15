@@ -9,15 +9,50 @@ var fs = require('fs');
 const { version } = require('os')
 const jsonfile = require('jsonfile')
 const versionsFile = 'versions.json'
+const urlsFile = 'urls.json'
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())
 app.use(bodyParser.json())
 
+var gCustomerDetails = [];
+
 app.get('/', (req, res) => {
 	res.send("Welcome to Amagi Server!!!")
-    
 })
+
+function getVersionList() {
+    jsonfile.readFile(urlsFile, function (err, urls) {
+        if (err) 
+        {
+            console.error("Reading urls file: "+err);
+            //res.send(err);
+        }
+        else
+        {
+            //console.log(data)
+            var verList = [];
+            var vers = {};
+            urls.forEach(url => {
+                console.log("url: ", url);
+                var obj = {}
+                obj['url'] = url;
+                obj['name'] = url.split(".")[0].substr(8);
+                obj['upgradable'] = 2;//0 - Yes, 1- No, 2-Not Sure
+                obj['remarks']="";
+                obj["version"]="";
+                verList.push(obj);
+            });
+            vers['versions'] = verList;
+            var dt = new Date();
+            vers['lastupdated'] = Date.parse(dt);
+            console.log("verList ===>",vers);
+            jsonfile.writeFileSync(versionsFile, vers);
+            setTimeout(getVersionList, 10*1000);
+        }
+    })
+}
+
 app.get("/accountslist",(req,res) =>{
     const accounts = [];
     console.log("in get accountslist");
@@ -42,6 +77,7 @@ app.get("/accountslist",(req,res) =>{
 
 app.get("/versions",(req,res) =>{
     //const urls = [];
+    var versionsInfo = {};
     var versions = [];
     jsonfile.readFile(versionsFile, function (err, data) {
         if (err) 
@@ -52,10 +88,12 @@ app.get("/versions",(req,res) =>{
         else
         {
              //console.log(data)
-             data.forEach(version => {
+             data.versions.forEach(version => {
                 versions.push(version);
              });
-             res.send(versions);
+             versionsInfo['versions'] = versions;
+             versionsInfo['lastupdate'] = data.lastupdated;
+             res.send(versionsInfo);
         }
        })
 })
@@ -66,29 +104,32 @@ app.get("/versionlist",(req,res) =>{
     res.send("fetching the version details...");
 })
 
-var versionList = [];
-const myTimeout = setTimeout(getVersionList, 10000);
+const myTimeout = setTimeout(getVersionList, 1000);
 
 function createBackup()
 {
+    console.log('In createBackup');
 	var dt = new Date();
 	strFileName = "bkp/"+Date.parse(dt)+".json";
-    
+    var versionsInfo = {};
     var versions = [];
     jsonfile.readFile(versionsFile, function (err, data) {
         if (err) 
         {
-            console.error("Reading Versions: "+err);
-            res.send(err);
+            console.error("Reading Versions file: "+err);
+            //res.send(err);
         }
         else
         {
-             //console.log(data)
-             data.forEach(version => {
+             console.log("data===>",data);
+             data.versions.forEach(version => {
                 versions.push(version);
              });
+             versionsInfo['versions'] = versions;
+             versionsInfo['lastupdated'] = data.lastupdated;
              console.log("versions: ", versions);
-            jsonfile.writeFile(strFileName, versions)
+             console.log("versionsInfo: ", versionsInfo);
+            jsonfile.writeFile(strFileName, versionsInfo)
             .then(res =>{
                 console.log("backup file "+strFileName+" created")
             })
@@ -97,192 +138,68 @@ function createBackup()
        })
 }
 
-async function getVersionList()
+function getVersionList()
 {
-    console.log("getting version details");
-    createBackup();
-    /*
-    var dt = new Date();
-    var bkupFile = Date.parse(dt)+".json";
-    jsonfile.writeFile(bkupFile, versionList)
-	  .then(ret=>{
-	    console.log('Write complete');
-      })
-	  .catch(error => console.log(error))*/
-    versionList = [];
-    const urls=["https://abscbn.amagi.tv/version",
-"https://accu-weather.amagi.tv/version",
-"https://adn.amagi.tv/version",
-"https://aenetworks.amagi.tv/version",
-"https://aenetworksitalia.amagi.tv/version",
-"https://africaxp.amagi.tv/version",
-"https://alchimie.amagi.tv/version",
-"https://ammo.amagi.tv/version",
-"https://appletree.amagi.tv/version",
-"https://atmosphere.amagi.tv/version",
-"https://b4u-new.amagi.tv/version",
-"https://b4u.amagi.tv/version",
-"https://barstoolsports.amagi.tv/version",
-"https://bein-cp-esp.amagi.tv/version",
-"https://bein-emea.amagi.tv/version",
-"https://bein-usa.amagi.tv/version",
-"https://blueant.amagi.tv/version",
-"https://blueantmediauhd-new.amagi.tv/version",
-"https://brat.amagi.tv/version",
-"https://buzzr.amagi.tv/version",
-"https://cinedigm.amagi.tv/version",
-"https://circle.amagi.tv/version",
-"https://colorssa_new.amagi.tv/version",
-"https://condenast.amagi.tv/version",
-"https://contech.amagi.tv/version",
-"https://crackle.amagi.tv/version",
-"https://crownmedia.amagi.tv/version",
-"https://curiosity-eu.amagi.tv/version",
-"https://curiosity.amagi.tv/version",
-"https://cwseed.amagi.tv/version",
-"https://dailywire.amagi.tv/version",
-"https://discoveryindia.amagi.tv/version",
-"https://dogtv.amagi.tv/version",
-"https://dsport.amagi.tv/version",
-"https://estv.amagi.tv/version",
-"https://fandango.amagi.tv/version",
-"https://faststudios.amagi.tv/version",
-"https://filmdetective.amagi.tv/version",
-"https://filmex.amagi.tv/version",
-"https://firstmedia.amagi.tv/version",
-"https://foodfood.amagi.tv/version",
-"https://fubotv.amagi.tv/version",
-"https://fuse.amagi.tv/version",
-"https://futuretoday.amagi.tv/version",
-"https://g4.amagi.tv/version",
-"https://groupnine.amagi.tv/version",
-"https://gunpowder.amagi.tv/version",
-"https://gusto.amagi.tv/version",
-"https://heremedia.amagi.tv/version",
-"https://hnc.amagi.tv/version",
-"https://ign.amagi.tv/version",
-"https://img.amagi.tv/version",
-"https://inverleigh.amagi.tv/version",
-"https://johntesh.amagi.tv/version",
-"https://justice.amagi.tv/version",
-"https://kidzbop.amagi.tv/version",
-"https://kochmedia.amagi.tv/version",
-"https://lawandcrime.amagi.tv/version",
-"https://lds.amagi.tv/version",
-"https://lemeilleurducinema.amagi.tv/version",
-"https://lightning.amagi.tv/version",
-"https://lionsgate.amagi.tv/version",
-"https://litton.amagi.tv/version",
-"https://loop.amagi.tv/version",
-"https://magnolia.amagi.tv/version",
-"https://mavtv.amagi.tv/version",
-"https://mezzo.amagi.tv/version",
-"https://moonbug.amagi.tv/version",
-"https://motorpresse.amagi.tv/version",
-"https://nbcu-uk-poc.amagi.tv/version",
-"https://nbcu-uk.amagi.tv/version",
-"https://nbcu-us.amagi.tv/version",
-"https://netx1.amagi.tv/version",
-"https://nosey.amagi.tv/version",
-"https://olympusat.amagi.tv/version",
-"https://osg.amagi.tv/version",
-"https://otv.amagi.tv/version",
-"https://pac12.amagi.tv/version",
-"https://palatinmedia.amagi.tv/version",
-"https://pbs-new.amagi.tv/version",
-"https://pbs.amagi.tv/version",
-"https://peopletv.amagi.tv/version",
-"https://playerstv.amagi.tv/version",
-"https://pocketwatch.amagi.tv/version",
-"https://ptcpunjabi.amagi.tv/version",
-"https://quest.amagi.tv/version",
-"https://questtv.amagi.tv/version",
-"https://qwest.amagi.tv/version",
-"https://raycomsports.amagi.tv/version",
-"https://rchannel.amagi.tv/version",
-"https://redbox.amagi.tv/version",
-"https://roku-us.amagi.tv/version",
-"https://rooster-teeth.amagi.tv/version",
-"https://samsunguhd.amagi.tv/version",
-"https://samsunguk.amagi.tv/version",
-"https://samsungusa.amagi.tv/version",
-"https://samuelgoldwyn.amagi.tv/version",
-"https://sbt.amagi.tv/version",
-"https://scripps-cp.amagi.tv/version",
-"https://sensical.amagi.tv/version",
-"https://shalomworld.amagi.tv/version",
-"https://shortstv-edge.amagi.tv/version",
-"https://shortstv.amagi.tv/version",
-"https://shoutfactory.amagi.tv/version",
-"https://sling.amagi.tv/version",
-"https://snc.amagi.tv/version",
-"https://sofy.amagi.tv/version",
-"https://sparksport.amagi.tv/version",
-"https://sparktv.amagi.tv/version",
-"https://spiinternational.amagi.tv/version",
-"https://sportsgrid-cp.amagi.tv/version",
-"https://studio71.amagi.tv/version",
-"https://tarima-new.amagi.tv/version",
-"https://tastemade.amagi.tv/version",
-"https://tennischannel.amagi.tv/version",
-"https://tern-cloud.amagi.tv/version",
-"https://tern-cp.amagi.tv/version",
-"https://theafricachannel-ota.amagi.tv/version",
-"https://theafricachannel.amagi.tv/version",
-"https://thedesignnetwork.amagi.tv/version",
-"https://thefirst.amagi.tv/version",
-"https://thema-vivekanald.amagi.tv/version",
-"https://therecount.amagi.tv/version",
-"https://thisoldhouse.amagi.tv/version",
-"https://toonz-kids.amagi.tv/version",
-"https://triplesquirrels.amagi.tv/version",
-"https://turner-nordic.amagi.tv/version",
-"https://turner.amagi.tv/version",
-"https://tvasia.amagi.tv/version",
-"https://twist.amagi.tv/version",
-"https://tyt.amagi.tv/version",
-"https://usatoday-b.amagi.tv/version",
-"https://venntv.amagi.tv/version",
-"https://viacom18_new.amagi.tv/version",
-"https://viacom18.amagi.tv/version",
-"https://vice.amagi.tv/version",
-"https://vicetv.amagi.tv/version",
-"https://vidaprimo.amagi.tv/version",
-"https://videosolutions.amagi.tv/version",
-"https://vizio.amagi.tv/version",
-"https://voxtv.amagi.tv/version",
-"https://watchtower.amagi.tv/version",
-"https://whistleblower.amagi.tv/version",
-"https://whistletv.amagi.tv/version",
-"https://xitecp.amagi.tv/version",
-"https://xplorationstation.amagi.tv/version",
-"https://yahoo.amagi.tv/version",
-"https://younghollywood.amagi.tv/version",
-"https://youtubetv.amagi.tv/version",
-"https://zoomer.amagi.tv/version"]
     console.log("in get versionlist");
     
-    for (i=0; i<urls.length;i++)
-    {
-        console.log("url: ", urls[i]);
-        var result = await getVersion(urls[i])
-        var obj = {}
-        obj['url'] = urls[i];
-        if(result.status == 200)
-            obj['version'] = result.data;
+    var versionList = [];
+    jsonfile.readFile(versionsFile, function (err, data) {
+        if (err) 
+        {
+            console.error("Reading Versions file: "+err);
+            //res.send(err);
+        }
         else
-            obj['version'] = result.message;
-        versionList.push(obj);
-    }
-    jsonfile.writeFile(versionsFile, versionList)
-	  .then(ret=>{
-	    console.log('Write complete');
-      })
-	  .catch(error => console.log(error))
-    setTimeout(getVersionList, 24*60*60*1000);
-    //res.send(versionList);
-    }
+        {
+            var dt = new Date();
+	        strFileName = "bkp/"+Date.parse(dt)+".json";
+            jsonfile.writeFile(strFileName, data)
+            .then(res =>{
+                console.log("backup file "+strFileName+" created")
+                data.versions.forEach(versionObj => {
+                    versionList.push(versionObj);
+                })
+                console.log("versionList ===>",versionList);
+                getversions(versionList);
+            })
+            .catch(error => console.error(error))
+        }
+       })
+    
+}
 
+async function getversions(versionList)
+{
+    var versionsInfo = {};
+    var versions = [];
+    for(i=0;i<versionList.length;i++)
+    {
+    //versionList.forEach(versionObj => {
+        
+        console.log("url: ", versionList[i].url);
+        var obj = {};
+        obj = versionList[i];
+        var result =  await getVersion(obj.url);
+        if(result.status == 200)
+            obj.version = result.data;
+        else
+            obj.version = result.message;
+        
+        versions.push(obj);
+        
+    }
+    versionsInfo['versions'] = versions;
+    var dt = new Date();
+    versionsInfo['lastupdated'] = Date.parse(dt);
+    gCustomerDetails = versionsInfo;
+    jsonfile.writeFile(versionsFile, versionsInfo)
+    .then(ret=>{
+        console.log('Write complete');
+    })
+    .catch(error => console.log(error))
+    
+    setTimeout(getVersionList, 24*60*60*1000);
+}
 async function getVersion(url) {
     // fetch data from a url endpoint
    
@@ -296,6 +213,32 @@ async function getVersion(url) {
     }
   }
 
+app.put('/updateCustomerDetails',(req,res) =>{
+    console.log("In put /updateCustomerDetails: ",req.body);
+    obj = req.body;
+    var updateJsonFile = false;
+    console.log("-->",gCustomerDetails);
+    for(i=0;i<gCustomerDetails.versions.length;i++)
+    {
+        if(gCustomerDetails.versions[i].name === req.body.name)
+        {
+            console.log("matching",gCustomerDetails.versions[i]);
+            gCustomerDetails.versions[i].upgradable = req.body.upgradable;
+            gCustomerDetails.versions[i].remarks = req.body.remarks;
+            updateJsonFile = true;
+            break;
+        }
+    }
+    if(updateJsonFile)
+    {
+        jsonfile.writeFile(versionsFile, gCustomerDetails)
+        .then(ret=>{
+            console.log('Write complete');
+        })
+        .catch(error => console.log(error))
+        res.send("update successful!");
+    }
+})
 app.listen(apiPort, () => console.log(`Amagi Server running on port ${apiPort}`))
 
 

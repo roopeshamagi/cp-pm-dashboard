@@ -53,8 +53,16 @@ export default function Table(props) {
 
     columns: [
 
-      { title: 'Domain', field: 'domain' ,editable: 'never'},
+      { title: 'Customer Name', field: 'name' ,editable: 'never'},
       { title: 'Version', field: 'version' ,editable: 'never'},
+      { title: 'Upgradable?', field: 'upgradable',lookup: { 0: 'Yes', 1: 'No', 2: 'Not Sure' }},
+      { title: 'Remarks', field: 'remarks' ,editComponent: props => (
+        <input
+          type="text"
+          value={props.value}
+          onChange={e => props.onChange(e.target.value)}
+        />
+      )},
     ],
     data: [
     ],
@@ -87,10 +95,10 @@ export default function Table(props) {
                  console.log("Invalid credentials. Retry!");
                },
                success: function (result) {
-                   console.log("status-->"+JSON.stringify(result));
-                   if(result.length > 0 )
+                   console.log("result-->"+JSON.stringify(result));
+                   if(result.versions.length > 0 )
                    {
-                    extractTableData(result);
+                    extractTableData(result.versions);
                   }
                   else{
                     console.log("Invalid response");
@@ -105,14 +113,40 @@ export default function Table(props) {
       for(let i=0; i<dataArr.length; i++)
       {
           var obj = {};
-          obj.domain = dataArr[i].url;
+          obj.name = dataArr[i].name;
           obj.version = dataArr[i].version;
-          
+          obj.upgradable = dataArr[i].upgradable;
+          obj.remarks = dataArr[i].remarks;
           dispArr.push(obj);
       }
 
       setState({...state,data:dispArr});
-    }
+  }
+  function updateData(updatedData)
+  {
+
+    //updatedData.last_modified = props.getUserDetails().user_id;
+    console.log("updated STB: "+JSON.stringify(updatedData));
+    //return;
+
+    var url = "http://localhost:3006/updateCustomerDetails";
+    console.log("updateData URL -->"+url);
+
+    $.ajax({
+               url: url,
+               type: 'put',
+               dataType: 'json',
+               contentType: 'application/json',
+               error: function(){
+                 console.log("Invalid credentials. Retry!");
+               },
+               success: function (result) {
+                   console.log("updateData Details-->"+JSON.stringify(result));
+
+               },
+               data: JSON.stringify(updatedData)
+           });
+  }
 
     function handleBack()
     {
@@ -246,7 +280,7 @@ export default function Table(props) {
   //      cellStyle: { fontSize:15}
       }}
 
-      /*editable={{
+      editable={{
 
         onRowUpdate: (newData, oldData) =>
 
@@ -269,7 +303,7 @@ export default function Table(props) {
             }, 600);
           }),
         
-      }}*/
+      }}
     />
     </div>
   );
