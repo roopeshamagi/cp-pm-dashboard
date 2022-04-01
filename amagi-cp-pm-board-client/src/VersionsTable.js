@@ -52,9 +52,22 @@ export default function Table(props) {
   const [state, setState] = React.useState({
 
     columns: [
-
+      { title: 'Amagi ID', field: 'amagi_id' ,editComponent: props => (
+        <input
+          type="text"
+          value={props.value}
+          onChange={e => props.onChange(e.target.value)}
+        />
+      )},
       { title: 'Customer Name', field: 'name' ,editable: 'never'},
       { title: 'Version', field: 'version' ,editable: 'never'},
+      { title: 'Product', field: 'product' ,editComponent: props => (
+        <input
+          type="text"
+          value={props.value}
+          onChange={e => props.onChange(e.target.value)}
+        />
+      )},
       { title: 'Upgradable?', field: 'upgradable',lookup: { 0: 'Yes', 1: 'No', 2: 'Not Sure' }},
       { title: 'Remarks', field: 'remarks' ,editComponent: props => (
         <input
@@ -113,10 +126,12 @@ export default function Table(props) {
       for(let i=0; i<dataArr.length; i++)
       {
           var obj = {};
+          obj.amagi_id = dataArr[i].amagi_id
           obj.name = dataArr[i].name;
           obj.version = dataArr[i].version;
           obj.upgradable = dataArr[i].upgradable;
           obj.remarks = dataArr[i].remarks;
+          obj.product = dataArr[i].product;
           dispArr.push(obj);
       }
 

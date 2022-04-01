@@ -8,8 +8,10 @@ var _ = require('underscore');
 var fs = require('fs');
 const { version } = require('os')
 const jsonfile = require('jsonfile')
-const versionsFile = 'versions.json'
-const urlsFile = 'urls.json'
+const { findWhere } = require('underscore')
+const versionsFile = 'versions.json';
+const urlsFile = 'urls.json';
+const versionsReleaseDatesFile = "versionsAge.json";
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())
@@ -21,6 +23,135 @@ app.get('/', (req, res) => {
 	res.send("Welcome to Amagi Server!!!")
 })
 
+app.get('/check', (req,res) => {
+    console.log("in check");
+    try
+        {
+            //https://oscar.amagi.tv/api/customers? to get all the customers
+            //console.log("accessToken: ",accessToken);
+            //const endTime = new Date().getTime()
+            axios({
+                method: "GET",
+                url: 'https://oscar.amagi.tv/api/customers?env=production',
+            }).then((response)=>{
+                console.log("Respomse:", response.data);
+                //iterate through the version list and append the missing customers and mark the
+                var arr = []
+                var versionsInfo = {};
+                var versions = [];
+                var nonExisting = [];
+                jsonfile.readFile(versionsFile, function (err, data) {
+                    if (err) 
+                    {
+                        console.error("Reading Versions: "+err);
+                        res.send(err);
+                    }
+                    else
+                    {
+                        var count = 0;
+                        var o
+                        data.versions.forEach(obj =>{
+                            str = obj.name+".amagi.tv";
+                            f = _.contains(response.data.production.account,str);
+                            if(!f)
+                            {
+                                count++
+                                console.log(obj.name+" is not in the production list");
+                                nonExisting.push(obj.name);
+                            }
+                        })
+                        console.log(count+"/"+response.data.production.account.length+"customers not in the production list");
+                        
+                        res.send(nonExisting);
+                    }
+                })
+            })
+        }
+        catch(error)
+        {
+            console.log("error:",error);
+            res.send(error);
+        }
+    })
+app.get('/getchanneldetails',(reg,res) =>{
+    console.log("in get channel details");
+    
+})
+
+app.get('/getCustomersInProduction', (req,res) =>{
+    console.log("in getCustomersInProduction");
+    try
+        {
+            //https://oscar.amagi.tv/api/customers? to get all the customers
+            //console.log("accessToken: ",accessToken);
+            //const endTime = new Date().getTime()
+            axios({
+                method: "GET",
+                url: 'https://oscar.amagi.tv/api/customers?env=production',
+            }).then((response)=>{
+                console.log("Respomse:", response.data);
+                //iterate through the version list and append the missing customers and mark the
+                var arr = []
+                var versionsInfo = {};
+                var versions = [];
+                var newCustomers = [];
+                jsonfile.readFile(versionsFile, function (err, data) {
+                    if (err) 
+                    {
+                        console.error("Reading Versions: "+err);
+                        res.send(err);
+                    }
+                    else
+                    {
+                        var count = 0;
+                        response.data.production.account.forEach(customer =>{
+                            //arr.push(customer);
+                            custName = customer.split(".")[0];
+                            f = _.findWhere(data.versions,{name:custName});
+                            if(f == undefined)
+                            {
+                                count++;
+                                console.log("new customer",custName);
+                                var obj = createVersionObject(custName);
+                                newCustomers.push(obj);
+                                data.versions.push(obj);
+                            }
+        
+                        })
+                        if(count > 0)
+                        {
+                            jsonfile.writeFile(versionsFile, data)
+                            .then(ret=>{
+                                console.log('Write complete');
+                            })
+                            .catch(error => console.log(error))
+                        }
+
+                        console.log(count+"/"+response.data.production.account.length+"customers not int he databaase");
+                        res.send(newCustomers);
+                    }
+                })
+                
+            })
+        }
+        catch(error)
+        {
+            console.log("error:",error);
+            res.send(error);
+        }
+})
+function createVersionObject(name)
+{
+    var obj = {};
+    obj['url'] = "https://"+name+".amagi.tv/version";
+    obj['name'] = name;
+    obj['upgradable'] = 0;//0 - Yes, 1- No, 2-Not Sure
+    obj['remarks']="";
+    obj["version"]="";
+    obj["amagi_id"]="";
+    obj["product"]="";
+    return obj;
+}
 function init() {
     jsonfile.readFile(urlsFile, function (err, urls) {
         if (err) 
@@ -35,12 +166,8 @@ function init() {
             var vers = {};
             urls.forEach(url => {
                 console.log("url: ", url);
-                var obj = {}
-                obj['url'] = url;
-                obj['name'] = url.split(".")[0].substr(8);
-                obj['upgradable'] = 2;//0 - Yes, 1- No, 2-Not Sure
-                obj['remarks']="";
-                obj["version"]="";
+                var obj = createVersionObject(url.split(".")[0].substr(8));
+                
                 verList.push(obj);
             });
             vers['versions'] = verList;
@@ -183,7 +310,7 @@ async function getversions(versionList)
         if(result.status == 200)
             obj.version = result.data;
         else
-            obj.version = result.message;
+            obj.version = "unknown";
         
         versions.push(obj);
         
@@ -217,7 +344,7 @@ app.put('/updateCustomerDetails',(req,res) =>{
     console.log("In put /updateCustomerDetails: ",req.body);
     obj = req.body;
     var updateJsonFile = false;
-    console.log("-->",gCustomerDetails);
+    console.log("-->",gCustomerDetails.length);
     for(i=0;i<gCustomerDetails.versions.length;i++)
     {
         if(gCustomerDetails.versions[i].name === req.body.name)
@@ -225,12 +352,16 @@ app.put('/updateCustomerDetails',(req,res) =>{
             console.log("matching",gCustomerDetails.versions[i]);
             gCustomerDetails.versions[i].upgradable = req.body.upgradable;
             gCustomerDetails.versions[i].remarks = req.body.remarks;
+            gCustomerDetails.versions[i].amagi_id = req.body.amagi_id;
+            gCustomerDetails.versions[i].product = req.body.product;
+
             updateJsonFile = true;
             break;
         }
     }
     if(updateJsonFile)
     {
+        console.log("out-->",gCustomerDetails.length);
         jsonfile.writeFile(versionsFile, gCustomerDetails)
         .then(ret=>{
             console.log('Write complete');
@@ -239,6 +370,26 @@ app.put('/updateCustomerDetails',(req,res) =>{
         res.send("update successful!");
     }
 })
+
+app.get("/versionsReleaseDates",(req,res) =>{
+    var versions = [];
+    jsonfile.readFile(versionsReleaseDatesFile, function (err, data) {
+        if (err) 
+        {
+            console.error("Reading Versions Release Dates file: "+err);
+            res.send(err);
+        }
+        else
+        {
+             console.log("data===>",data);
+             data.forEach(version => {
+                versions.push(version);
+             });
+             res.send(versions);
+        }
+    })
+})
+
 app.listen(apiPort, () => console.log(`Amagi Server running on port ${apiPort}`))
 
 

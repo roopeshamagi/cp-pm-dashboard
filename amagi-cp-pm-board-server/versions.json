@@ -1,1 +1,1643 @@
-{"versions":[{"url":"https://abscbn.amagi.tv/version","name":"abscbn","upgradable":"1","remarks":"Uses legacy Amagi Live.","version":"v7.3.27\n"},{"url":"https://accu-weather.amagi.tv/version","name":"accu-weather","upgradable":"0","remarks":"","version":"v7.5.12\n"},{"url":"https://adn.amagi.tv/version","name":"adn","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://aenetworks.amagi.tv/version","name":"aenetworks","upgradable":"0","remarks":"","version":"v7.3.15.1\n"},{"url":"https://aenetworksitalia.amagi.tv/version","name":"aenetworksitalia","upgradable":"0","remarks":"","version":"v7.2.13\n"},{"url":"https://africaxp.amagi.tv/version","name":"africaxp","upgradable":"0","remarks":"Currently in a very old version. Needs time to analyze and plan.","version":"v6.3.16\n"},{"url":"https://alchimie.amagi.tv/version","name":"alchimie","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://ammo.amagi.tv/version","name":"ammo","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://appletree.amagi.tv/version","name":"appletree","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://atmosphere.amagi.tv/version","name":"atmosphere","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://b4u-new.amagi.tv/version","name":"b4u-new","upgradable":"0","remarks":"","version":"v7.4.15.1\n"},{"url":"https://b4u.amagi.tv/version","name":"b4u","upgradable":"1","remarks":"Uses Z3 Dart boxes.","version":"v3.53.8.1\n"},{"url":"https://barstoolsports.amagi.tv/version","name":"barstoolsports","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://bein-cp-esp.amagi.tv/version","name":"bein-cp-esp","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://bein-emea.amagi.tv/version","name":"bein-emea","upgradable":"0","remarks":"","version":"v7.4.18\n"},{"url":"https://bein-usa.amagi.tv/version","name":"bein-usa","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://blueant.amagi.tv/version","name":"blueant","upgradable":"0","remarks":"","version":"v7.1.14.1\n"},{"url":"https://blueantmediauhd-new.amagi.tv/version","name":"blueantmediauhd-new","upgradable":"0","remarks":"","version":"v7.5.18.1.1\n"},{"url":"https://brat.amagi.tv/version","name":"brat","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://buzzr.amagi.tv/version","name":"buzzr","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://cinedigm.amagi.tv/version","name":"cinedigm","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://circle.amagi.tv/version","name":"circle","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://colorssa_new.amagi.tv/version","name":"colorssa_new","upgradable":"1","remarks":"Custom implementation - LMU is blocker.","version":"ARGELIOS-CI-PR-colorssa_new__v3.53.10.2_back_in_counter_v1\n"},{"url":"https://condenast.amagi.tv/version","name":"condenast","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://contech.amagi.tv/version","name":"contech","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://crackle.amagi.tv/version","name":"crackle","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://crownmedia.amagi.tv/version","name":"crownmedia","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://curiosity-eu.amagi.tv/version","name":"curiosity-eu","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://curiosity.amagi.tv/version","name":"curiosity","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://cwseed.amagi.tv/version","name":"cwseed","upgradable":"1","remarks":"Uses legacy Amagi Live.","version":"v7.3.28\n"},{"url":"https://dailywire.amagi.tv/version","name":"dailywire","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://discoveryindia.amagi.tv/version","name":"discoveryindia","upgradable":"1","remarks":"Can be moved till 7.3.x. Lots of customization. Hence very risky to migrate them to latest.","version":"v7.2.14.4\n"},{"url":"https://dogtv.amagi.tv/version","name":"dogtv","upgradable":"0","remarks":"Very old version need more time to anlayse and plan.","version":"v6.3.22.4\n"},{"url":"https://dsport.amagi.tv/version","name":"dsport","upgradable":"1","remarks":"Can be moved till 7.3.x. Lots of customization. Hence very risky to migrate them to latest.","version":"ARGELIOS-CI-PR-dsport__v6.3.16\n"},{"url":"https://estv.amagi.tv/version","name":"estv","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://fandango.amagi.tv/version","name":"fandango","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://faststudios.amagi.tv/version","name":"faststudios","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://filmdetective.amagi.tv/version","name":"filmdetective","upgradable":"0","remarks":"","version":"v7.1.11.1\n"},{"url":"https://filmex.amagi.tv/version","name":"filmex","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://firstmedia.amagi.tv/version","name":"firstmedia","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://foodfood.amagi.tv/version","name":"foodfood","upgradable":"0","remarks":"Very old version need more time to anlayse and plan.","version":"v6.3.16\n"},{"url":"https://fubotv.amagi.tv/version","name":"fubotv","upgradable":"1","remarks":"Uses legacy Amagi Live.","version":"vr-pip-playout\n"},{"url":"https://fuse.amagi.tv/version","name":"fuse","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://futuretoday.amagi.tv/version","name":"futuretoday","upgradable":"0","remarks":"","version":"v7.5.20\n"},{"url":"https://g4.amagi.tv/version","name":"g4","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://groupnine.amagi.tv/version","name":"groupnine","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://gunpowder.amagi.tv/version","name":"gunpowder","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://gusto.amagi.tv/version","name":"gusto","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://heremedia.amagi.tv/version","name":"heremedia","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://hnc.amagi.tv/version","name":"hnc","upgradable":"0","remarks":"","version":"v3.53.48.1\n"},{"url":"https://ign.amagi.tv/version","name":"ign","upgradable":"0","remarks":"","version":"v7.5.21.1\n"},{"url":"https://img.amagi.tv/version","name":"img","upgradable":"1","remarks":"Uses Z3 dart boxes","version":"release-v3.53.48.2\n"},{"url":"https://inverleigh.amagi.tv/version","name":"inverleigh","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://johntesh.amagi.tv/version","name":"johntesh","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://justice.amagi.tv/version","name":"justice","upgradable":"0","remarks":"contains 80+ players. Hence needs planning.","version":"Request failed with status code 500"},{"url":"https://kidzbop.amagi.tv/version","name":"kidzbop","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://kochmedia.amagi.tv/version","name":"kochmedia","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://lawandcrime.amagi.tv/version","name":"lawandcrime","upgradable":"0","remarks":"","version":"v7.5.18.1.1\n"},{"url":"https://lds.amagi.tv/version","name":"lds","upgradable":"0","remarks":"","version":"v7.5.18.3\n"},{"url":"https://lemeilleurducinema.amagi.tv/version","name":"lemeilleurducinema","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://lightning.amagi.tv/version","name":"lightning","upgradable":"0","remarks":"","version":"v7.4.18\n"},{"url":"https://lionsgate.amagi.tv/version","name":"lionsgate","upgradable":"0","remarks":"","version":"v7.5.18.7\n"},{"url":"https://litton.amagi.tv/version","name":"litton","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://loop.amagi.tv/version","name":"loop","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://magnolia.amagi.tv/version","name":"magnolia","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://mavtv.amagi.tv/version","name":"mavtv","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://mezzo.amagi.tv/version","name":"mezzo","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://moonbug.amagi.tv/version","name":"moonbug","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://motorpresse.amagi.tv/version","name":"motorpresse","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://nbcu-uk-poc.amagi.tv/version","name":"nbcu-uk-poc","upgradable":"0","remarks":"","version":"v7.5-plec-2.0.18\n"},{"url":"https://nbcu-uk.amagi.tv/version","name":"nbcu-uk","upgradable":"0","remarks":"","version":"v7.4.24\n"},{"url":"https://nbcu-us.amagi.tv/version","name":"nbcu-us","upgradable":"0","remarks":"","version":"v7.5.20\n"},{"url":"https://netx1.amagi.tv/version","name":"netx1","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://nosey.amagi.tv/version","name":"nosey","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://olympusat.amagi.tv/version","name":"olympusat","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://osg.amagi.tv/version","name":"osg","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://otv.amagi.tv/version","name":"otv","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://pac12.amagi.tv/version","name":"pac12","upgradable":"0","remarks":"","version":"v7.5.21.1\n"},{"url":"https://palatinmedia.amagi.tv/version","name":"palatinmedia","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://pbs-new.amagi.tv/version","name":"pbs-new","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://pbs.amagi.tv/version","name":"pbs","upgradable":2,"remarks":"There seems to be business decision associated with this. To be checked.","version":"v3.53.28-crf\n"},{"url":"https://peopletv.amagi.tv/version","name":"peopletv","upgradable":"1","remarks":"Uses legacy Amagi Live","version":"v6.3.19.1.1\n"},{"url":"https://playerstv.amagi.tv/version","name":"playerstv","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://pocketwatch.amagi.tv/version","name":"pocketwatch","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://ptcpunjabi.amagi.tv/version","name":"ptcpunjabi","upgradable":"1","remarks":"Uses legacy Amagi Live","version":"v6.3.12.7\n"},{"url":"https://questtv.amagi.tv/version","name":"questtv","upgradable":"0","remarks":"","version":"v7.2.14.4\n"},{"url":"https://qwest.amagi.tv/version","name":"qwest","upgradable":"1","remarks":"Uses legacy Amagi Live","version":"v7.3.28\n"},{"url":"https://raycomsports.amagi.tv/version","name":"raycomsports","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://rchannel.amagi.tv/version","name":"rchannel","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://redbox.amagi.tv/version","name":"redbox","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://roku-us.amagi.tv/version","name":"roku-us","upgradable":"0","remarks":"","version":"v7.4.18\n"},{"url":"https://rooster-teeth.amagi.tv/version","name":"rooster-teeth","upgradable":"0","remarks":"Very old version need more time to anlayse and plan.","version":"v6.3.16\n"},{"url":"https://samsunguhd.amagi.tv/version","name":"samsunguhd","upgradable":"0","remarks":"","version":"v7.5.18.1.1\n"},{"url":"https://samsunguk.amagi.tv/version","name":"samsunguk","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://samsungusa.amagi.tv/version","name":"samsungusa","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://samuelgoldwyn.amagi.tv/version","name":"samuelgoldwyn","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://sbt.amagi.tv/version","name":"sbt","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://scripps-cp.amagi.tv/version","name":"scripps-cp","upgradable":"0","remarks":"Very old version need more time to anlayse and plan.","version":"v6.3.19.4.1\n"},{"url":"https://sensical.amagi.tv/version","name":"sensical","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://shalomworld.amagi.tv/version","name":"shalomworld","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://shortstv-edge.amagi.tv/version","name":"shortstv-edge","upgradable":"0","remarks":"","version":"v7.2.10.3\n"},{"url":"https://shortstv.amagi.tv/version","name":"shortstv","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://shoutfactory.amagi.tv/version","name":"shoutfactory","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://sling.amagi.tv/version","name":"sling","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://snc.amagi.tv/version","name":"snc","upgradable":"0","remarks":"","version":"v7.5.21.1\n"},{"url":"https://sofy.amagi.tv/version","name":"sofy","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://sparksport.amagi.tv/version","name":"sparksport","upgradable":"0","remarks":"","version":"v7.5.18.1.1\n"},{"url":"https://sparktv.amagi.tv/version","name":"sparktv","upgradable":"0","remarks":"","version":"v7.4.24\n"},{"url":"https://spiinternational.amagi.tv/version","name":"spiinternational","upgradable":"0","remarks":"","version":"v7.4.14.1\n"},{"url":"https://sportsgrid-cp.amagi.tv/version","name":"sportsgrid-cp","upgradable":"0","remarks":"","version":"v7.5.21.1\n"},{"url":"https://studio71.amagi.tv/version","name":"studio71","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://tarima-new.amagi.tv/version","name":"tarima-new","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://tastemade.amagi.tv/version","name":"tastemade","upgradable":"0","remarks":"Too many customizations requires planning","version":"v7.3.15\n"},{"url":"https://tennischannel.amagi.tv/version","name":"tennischannel","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://tern-cloud.amagi.tv/version","name":"tern-cloud","upgradable":"0","remarks":"","version":"v7.5.21.1\n"},{"url":"https://tern-cp.amagi.tv/version","name":"tern-cp","upgradable":"1","remarks":"Uses legacy Amagi Live","version":"v7.3.27\n"},{"url":"https://theafricachannel-ota.amagi.tv/version","name":"theafricachannel-ota","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://theafricachannel.amagi.tv/version","name":"theafricachannel","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://thedesignnetwork.amagi.tv/version","name":"thedesignnetwork","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://thefirst.amagi.tv/version","name":"thefirst","upgradable":"1","remarks":"Uses legacy Amagi Live","version":"v7.3.28\n"},{"url":"https://thema-vivekanald.amagi.tv/version","name":"thema-vivekanald","upgradable":"0","remarks":"","version":"v7.5.18.1\n"},{"url":"https://therecount.amagi.tv/version","name":"therecount","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://thisoldhouse.amagi.tv/version","name":"thisoldhouse","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://toonz-kids.amagi.tv/version","name":"toonz-kids","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://triplesquirrels.amagi.tv/version","name":"triplesquirrels","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://turner-nordic.amagi.tv/version","name":"turner-nordic","upgradable":"0","remarks":"","version":"v7.3.27\n"},{"url":"https://tvasia.amagi.tv/version","name":"tvasia","upgradable":"1","remarks":"Uses legacy Amagi Live","version":"v7.1.7.7\n"},{"url":"https://twist.amagi.tv/version","name":"twist","upgradable":"0","remarks":"contains 80+ players. Hence needs planning.","version":"v7.2.14\n"},{"url":"https://tyt.amagi.tv/version","name":"tyt","upgradable":"1","remarks":"Uses legacy Amagi Live","version":"v7.3.27\n"},{"url":"https://usatoday-b.amagi.tv/version","name":"usatoday-b","upgradable":"0","remarks":"","version":"v7.5.21.1\n"},{"url":"https://venntv.amagi.tv/version","name":"venntv","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://viacom18_new.amagi.tv/version","name":"viacom18_new","upgradable":"0","remarks":"Very old version need more time to anlayse and plan. Internet issues","version":"v6.3.16.7\n"},{"url":"https://vicetv.amagi.tv/version","name":"vicetv","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://vidaprimo.amagi.tv/version","name":"vidaprimo","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://videosolutions.amagi.tv/version","name":"videosolutions","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://vizio.amagi.tv/version","name":"vizio","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://voxtv.amagi.tv/version","name":"voxtv","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://watchtower.amagi.tv/version","name":"watchtower","upgradable":"0","remarks":"Very old version need more time to anlayse and plan.","version":"v6.3.9.1\n"},{"url":"https://whistleblower.amagi.tv/version","name":"whistleblower","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://whistletv.amagi.tv/version","name":"whistletv","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://xitecp.amagi.tv/version","name":"xitecp","upgradable":"0","remarks":"","version":"v7.5.18\n"},{"url":"https://xplorationstation.amagi.tv/version","name":"xplorationstation","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://yahoo.amagi.tv/version","name":"yahoo","upgradable":"1","remarks":"Uses legacy Amagi Live","version":"v7.3.28\n"},{"url":"https://younghollywood.amagi.tv/version","name":"younghollywood","upgradable":"0","remarks":"","version":"v7.4.25\n"},{"url":"https://youtubetv.amagi.tv/version","name":"youtubetv","upgradable":"1","remarks":"Dormant","version":"v7.3.10.1\n"},{"url":"https://zoomer.amagi.tv/version","name":"zoomer","upgradable":"0","remarks":"","version":"v7.3.15.1\n"}],"lastupdated":1644903287000}
+{
+  "versions": [
+    {
+      "url": "https://abscbn.amagi.tv/version",
+      "name": "abscbn",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live.",
+      "version": "v7.3.27\n",
+      "amagi_id": "AMG01006",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://accu-weather.amagi.tv/version",
+      "name": "accu-weather",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00684",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://adn.amagi.tv/version",
+      "name": "adn",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG00762",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://aenetworks.amagi.tv/version",
+      "name": "aenetworks",
+      "upgradable": "0",
+      "remarks": "requires patch upgrades and testing. AI: VK. May be upgraded in Ap 22",
+      "version": "v7.3.15.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://aenetworksitalia.amagi.tv/version",
+      "name": "aenetworksitalia",
+      "upgradable": "0",
+      "remarks": "Defect to be fixed. AI: Vinayagar",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://africaxp.amagi.tv/version",
+      "name": "africaxp",
+      "upgradable": "0",
+      "remarks": "Currently in a very old version. Needs time to analyze and plan. Discussed with CSM and confirmed that we have to keep them active and rolling forward.",
+      "version": "v6.3.16\n",
+      "amagi_id": "AMG01084",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://alchimie.amagi.tv/version",
+      "name": "alchimie",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00712",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://ammo.amagi.tv/version",
+      "name": "ammo",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://appletree.amagi.tv/version",
+      "name": "appletree",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://atmosphere.amagi.tv/version",
+      "name": "atmosphere",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG01325",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://b4u-new.amagi.tv/version",
+      "name": "b4u-new",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.15.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://b4u.amagi.tv/version",
+      "name": "b4u",
+      "upgradable": "1",
+      "remarks": "Uses Z3 Dart boxes.",
+      "version": "v3.53.8.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://barstoolsports.amagi.tv/version",
+      "name": "barstoolsports",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG00757",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://bein-cp-esp.amagi.tv/version",
+      "name": "bein-cp-esp",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://bein-emea.amagi.tv/version",
+      "name": "bein-emea",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://bein-usa.amagi.tv/version",
+      "name": "bein-usa",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://blueant.amagi.tv/version",
+      "name": "blueant",
+      "upgradable": "0",
+      "remarks": "Upgrade to 7.5.21.x ia planned.",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://blueantmediauhd-new.amagi.tv/version",
+      "name": "blueantmediauhd-new",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18.1.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://brat.amagi.tv/version",
+      "name": "brat",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00350",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://buzzr.amagi.tv/version",
+      "name": "buzzr",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG01545",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://cinedigm.amagi.tv/version",
+      "name": "cinedigm",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG01201",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://circle.amagi.tv/version",
+      "name": "circle",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00432",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://colorssa_new.amagi.tv/version",
+      "name": "colorssa_new",
+      "upgradable": "1",
+      "remarks": "Custom implementation - LMU is blocker.",
+      "version": "ARGELIOS-CI-PR-colorssa_new__v3.53.10.2_back_in_counter_v1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://condenast.amagi.tv/version",
+      "name": "condenast",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG00255",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://contech.amagi.tv/version",
+      "name": "contech",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00239",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://crackle.amagi.tv/version",
+      "name": "crackle",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00540",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://crownmedia.amagi.tv/version",
+      "name": "crownmedia",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00235",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://curiosity-eu.amagi.tv/version",
+      "name": "curiosity-eu",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://curiosity.amagi.tv/version",
+      "name": "curiosity",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://cwseed.amagi.tv/version",
+      "name": "cwseed",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live.",
+      "version": "v7.3.28\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://dailywire.amagi.tv/version",
+      "name": "dailywire",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG01549",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://discoveryindia.amagi.tv/version",
+      "name": "discoveryindia",
+      "upgradable": "1",
+      "remarks": "Can be moved till 7.3.x. Lots of customization. Hence very risky to migrate them to latest.",
+      "version": "v7.2.14.4\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://dogtv.amagi.tv/version",
+      "name": "dogtv",
+      "upgradable": "0",
+      "remarks": "Very old version need more time to anlayse and plan. BLOCKER: XMorph. Planned to move to latest in March 22.",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00172",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://dsport.amagi.tv/version",
+      "name": "dsport",
+      "upgradable": "1",
+      "remarks": "Can be moved till 7.3.x. Lots of customization. Hence very risky to migrate them to latest.",
+      "version": "ARGELIOS-CI-PR-dsport__v6.3.16\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://estv.amagi.tv/version",
+      "name": "estv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://fandango.amagi.tv/version",
+      "name": "fandango",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00491",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://faststudios.amagi.tv/version",
+      "name": "faststudios",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG01416",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://filmdetective.amagi.tv/version",
+      "name": "filmdetective",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.1.11.1\n",
+      "amagi_id": "AMG00213",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://filmex.amagi.tv/version",
+      "name": "filmex",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://firstmedia.amagi.tv/version",
+      "name": "firstmedia",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG00437",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://foodfood.amagi.tv/version",
+      "name": "foodfood",
+      "upgradable": "0",
+      "remarks": "Very old version need more time to anlayse and plan. Discussed with CSM and confirmed that we have to keep them active and rolling forward.",
+      "version": "v6.3.16\n",
+      "amagi_id": "AMG01121",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://fubotv.amagi.tv/version",
+      "name": "fubotv",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live.",
+      "version": "vr-pip-playout\n",
+      "amagi_id": "AMG00242",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://fuse.amagi.tv/version",
+      "name": "fuse",
+      "upgradable": "0",
+      "remarks": "Planned upgrade to 7.5.21 in Mar 22",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00375",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://futuretoday.amagi.tv/version",
+      "name": "futuretoday",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.20\n",
+      "amagi_id": "AMG00108",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://g4.amagi.tv/version",
+      "name": "g4",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://groupnine.amagi.tv/version",
+      "name": "groupnine",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00594",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://gunpowder.amagi.tv/version",
+      "name": "gunpowder",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Mar 22",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00219",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://gusto.amagi.tv/version",
+      "name": "gusto",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG01077",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://heremedia.amagi.tv/version",
+      "name": "heremedia",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00058",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://hnc.amagi.tv/version",
+      "name": "hnc",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.3.28 in Apr 22",
+      "version": "v3.53.48.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://ign.amagi.tv/version",
+      "name": "ign",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://img.amagi.tv/version",
+      "name": "img",
+      "upgradable": "1",
+      "remarks": "Uses Z3 dart boxes",
+      "version": "release-v3.53.48.2\n",
+      "amagi_id": "AMG00780",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://inverleigh.amagi.tv/version",
+      "name": "inverleigh",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG00721",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://johntesh.amagi.tv/version",
+      "name": "johntesh",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG01292",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://justice.amagi.tv/version",
+      "name": "justice",
+      "upgradable": "0",
+      "remarks": "contains 80+ players. Hence needs planning.",
+      "version": "v7.2.14\n",
+      "amagi_id": "AMG00979",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://kidzbop.amagi.tv/version",
+      "name": "kidzbop",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00377",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://kochmedia.amagi.tv/version",
+      "name": "kochmedia",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://lawandcrime.amagi.tv/version",
+      "name": "lawandcrime",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://lds.amagi.tv/version",
+      "name": "lds",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18.3\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://lemeilleurducinema.amagi.tv/version",
+      "name": "lemeilleurducinema",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://lightning.amagi.tv/version",
+      "name": "lightning",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.18\n",
+      "amagi_id": "AMG01076",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://lionsgate.amagi.tv/version",
+      "name": "lionsgate",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18.8\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://litton.amagi.tv/version",
+      "name": "litton",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://loop.amagi.tv/version",
+      "name": "loop",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://magnolia.amagi.tv/version",
+      "name": "magnolia",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG00308",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://mavtv.amagi.tv/version",
+      "name": "mavtv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG01472",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://mezzo.amagi.tv/version",
+      "name": "mezzo",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://moonbug.amagi.tv/version",
+      "name": "moonbug",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00403",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://motorpresse.amagi.tv/version",
+      "name": "motorpresse",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG01528",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://nbcu-uk-poc.amagi.tv/version",
+      "name": "nbcu-uk-poc",
+      "upgradable": "1",
+      "remarks": "",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://nbcu-uk.amagi.tv/version",
+      "name": "nbcu-uk",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.24\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://nbcu-us.amagi.tv/version",
+      "name": "nbcu-us",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.20\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://netx1.amagi.tv/version",
+      "name": "netx1",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://nosey.amagi.tv/version",
+      "name": "nosey",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://olympusat.amagi.tv/version",
+      "name": "olympusat",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG01024",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://osg.amagi.tv/version",
+      "name": "osg",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://otv.amagi.tv/version",
+      "name": "otv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://pac12.amagi.tv/version",
+      "name": "pac12",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00384",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://palatinmedia.amagi.tv/version",
+      "name": "palatinmedia",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25",
+      "amagi_id": "AMG00609",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://pbs-new.amagi.tv/version",
+      "name": "pbs-new",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Mar 22",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://pbs.amagi.tv/version",
+      "name": "pbs",
+      "upgradable": "1",
+      "remarks": "Decommisioned. Moved to pbs-new",
+      "version": "v3.53.28-crf\n",
+      "amagi_id": "",
+      "product": "Cloudport-Decommisioned"
+    },
+    {
+      "url": "https://peopletv.amagi.tv/version",
+      "name": "peopletv",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live",
+      "version": "v6.3.19.1.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://playerstv.amagi.tv/version",
+      "name": "playerstv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00379",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://pocketwatch.amagi.tv/version",
+      "name": "pocketwatch",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00286",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://ptcpunjabi.amagi.tv/version",
+      "name": "ptcpunjabi",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live",
+      "version": "v6.3.12.7\n",
+      "amagi_id": "AMG01086",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://questtv.amagi.tv/version",
+      "name": "questtv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.2.14.4\n",
+      "amagi_id": "AMG00009",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://qwest.amagi.tv/version",
+      "name": "qwest",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live",
+      "version": "v7.3.28\n",
+      "amagi_id": "AMG00447",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://raycomsports.amagi.tv/version",
+      "name": "raycomsports",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG01258",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://rchannel.amagi.tv/version",
+      "name": "rchannel",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://redbox.amagi.tv/version",
+      "name": "redbox",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00345",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://roku-us.amagi.tv/version",
+      "name": "roku-us",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.18\n",
+      "amagi_id": "AMG00200",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://rooster-teeth.amagi.tv/version",
+      "name": "rooster-teeth",
+      "upgradable": "0",
+      "remarks": "Very old version need more time to anlayse and plan. Discussed with CSM and confirmed that we have to keep them active and rolling forward.",
+      "version": "v6.3.16\n",
+      "amagi_id": "AMG00067",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://samsunguhd.amagi.tv/version",
+      "name": "samsunguhd",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18.1.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://samsunguk.amagi.tv/version",
+      "name": "samsunguk",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://samsungusa.amagi.tv/version",
+      "name": "samsungusa",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://samuelgoldwyn.amagi.tv/version",
+      "name": "samuelgoldwyn",
+      "upgradable": "1",
+      "remarks": "",
+      "version": "unknown",
+      "amagi_id": "AMG00734",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://sbt.amagi.tv/version",
+      "name": "sbt",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00527",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://scripps-cp.amagi.tv/version",
+      "name": "scripps-cp",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v6.3.19.4.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://sensical.amagi.tv/version",
+      "name": "sensical",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://shalomworld.amagi.tv/version",
+      "name": "shalomworld",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://shortstv-edge.amagi.tv/version",
+      "name": "shortstv-edge",
+      "upgradable": "0",
+      "remarks": "Upgrade planned in Apr 22",
+      "version": "v7.2.10.3\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://shortstv.amagi.tv/version",
+      "name": "shortstv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://shoutfactory.amagi.tv/version",
+      "name": "shoutfactory",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00163",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://sling.amagi.tv/version",
+      "name": "sling",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00492",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://snc.amagi.tv/version",
+      "name": "snc",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://sofy.amagi.tv/version",
+      "name": "sofy",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://sparksport.amagi.tv/version",
+      "name": "sparksport",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00708",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://sparktv.amagi.tv/version",
+      "name": "sparktv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.24\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://spiinternational.amagi.tv/version",
+      "name": "spiinternational",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.14.1\n",
+      "amagi_id": "AMG00819",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://sportsgrid-cp.amagi.tv/version",
+      "name": "sportsgrid-cp",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00315",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://studio71.amagi.tv/version",
+      "name": "studio71",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00285",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://tarima-new.amagi.tv/version",
+      "name": "tarima-new",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG00082",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://tastemade.amagi.tv/version",
+      "name": "tastemade",
+      "upgradable": "0",
+      "remarks": "Too many customizations requires planning. Target for May22",
+      "version": "v7.3.15\n",
+      "amagi_id": "AMG00047",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://tennischannel.amagi.tv/version",
+      "name": "tennischannel",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG01444",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://tern-cloud.amagi.tv/version",
+      "name": "tern-cloud",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://tern-cp.amagi.tv/version",
+      "name": "tern-cp",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live",
+      "version": "v7.3.27\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://theafricachannel-ota.amagi.tv/version",
+      "name": "theafricachannel-ota",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://theafricachannel.amagi.tv/version",
+      "name": "theafricachannel",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://thedesignnetwork.amagi.tv/version",
+      "name": "thedesignnetwork",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://thefirst.amagi.tv/version",
+      "name": "thefirst",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live",
+      "version": "v7.3.28\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://thema-vivekanald.amagi.tv/version",
+      "name": "thema-vivekanald",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://therecount.amagi.tv/version",
+      "name": "therecount",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://thisoldhouse.amagi.tv/version",
+      "name": "thisoldhouse",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00339",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://toonz-kids.amagi.tv/version",
+      "name": "toonz-kids",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://triplesquirrels.amagi.tv/version",
+      "name": "triplesquirrels",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG01293",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://turner-nordic.amagi.tv/version",
+      "name": "turner-nordic",
+      "upgradable": "1",
+      "remarks": "Remove this.",
+      "version": "v7.3.27\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://tvasia.amagi.tv/version",
+      "name": "tvasia",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live",
+      "version": "v7.1.7.7\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://twist.amagi.tv/version",
+      "name": "twist",
+      "upgradable": "0",
+      "remarks": "contains 80+ players. Hence needs planning.",
+      "version": "v7.2.14\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://tyt.amagi.tv/version",
+      "name": "tyt",
+      "upgradable": "0",
+      "remarks": "Uses legacy Amagi Live. Planned to move to CP-Live by end of Mar 22.",
+      "version": "v7.3.27\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://usatoday-b.amagi.tv/version",
+      "name": "usatoday-b",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://venntv.amagi.tv/version",
+      "name": "venntv",
+      "upgradable": "1",
+      "remarks": "",
+      "version": "unknown",
+      "amagi_id": "AMG00575",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://viacom18_new.amagi.tv/version",
+      "name": "viacom18_new",
+      "upgradable": "1",
+      "remarks": "Very old version need more time to anlayse and plan. Internet issues. Getting Terminated in April",
+      "version": "v6.3.16.7\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://vicetv.amagi.tv/version",
+      "name": "vicetv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://vidaprimo.amagi.tv/version",
+      "name": "vidaprimo",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00274",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://videosolutions.amagi.tv/version",
+      "name": "videosolutions",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00735",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://vizio.amagi.tv/version",
+      "name": "vizio",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00346",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://voxtv.amagi.tv/version",
+      "name": "voxtv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://watchtower.amagi.tv/version",
+      "name": "watchtower",
+      "upgradable": "0",
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v6.3.9.1\n",
+      "amagi_id": "AMG01128",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://whistleblower.amagi.tv/version",
+      "name": "whistleblower",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG01349",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://whistletv.amagi.tv/version",
+      "name": "whistletv",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG01280",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://xitecp.amagi.tv/version",
+      "name": "xitecp",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://xplorationstation.amagi.tv/version",
+      "name": "xplorationstation",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00681",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://yahoo.amagi.tv/version",
+      "name": "yahoo",
+      "upgradable": "1",
+      "remarks": "Uses legacy Amagi Live",
+      "version": "v7.3.28\n",
+      "amagi_id": "AMG00119",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://younghollywood.amagi.tv/version",
+      "name": "younghollywood",
+      "upgradable": "0",
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00143",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://youtubetv.amagi.tv/version",
+      "name": "youtubetv",
+      "upgradable": "1",
+      "remarks": "Dormant",
+      "version": "v7.3.10.1\n",
+      "amagi_id": "AMG00309",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://zoomer.amagi.tv/version",
+      "name": "zoomer",
+      "upgradable": "0",
+      "remarks": "Upgrade planned in March 22",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "AMG00372",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://assets2.amagi.tv/version",
+      "name": "assets2",
+      "upgradable": "1",
+      "remarks": "Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport - Not In Scope"
+    },
+    {
+      "url": "https://vice.amagi.tv/version",
+      "name": "vice",
+      "upgradable": "1",
+      "remarks": "All channels are terminated",
+      "version": "v3.53.48.1-dynamic-graphics-v2.2\n",
+      "amagi_id": "",
+      "product": "Cloudport-Terminated"
+    },
+    {
+      "url": "https://bloomberg-hd.amagi.tv/version",
+      "name": "bloomberg-hd",
+      "upgradable": "1",
+      "remarks": "Storm Channel. Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Storm"
+    },
+    {
+      "url": "https://assets.amagi.tv/version",
+      "name": "assets",
+      "upgradable": "1",
+      "remarks": "Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport-Not In Scope"
+    },
+    {
+      "url": "https://quest.amagi.tv/version",
+      "name": "quest",
+      "upgradable": "1",
+      "remarks": "Not in production. To be removed",
+      "version": "v6.3.19.1\n",
+      "amagi_id": "",
+      "product": "Cloudport-Not In Scope"
+    },
+    {
+      "url": "https://pbs-ftp.amagi.tv/version",
+      "name": "pbs-ftp",
+      "upgradable": "1",
+      "remarks": "Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport-Not In Scope"
+    },
+    {
+      "url": "https://timesnow.amagi.tv/version",
+      "name": "timesnow",
+      "upgradable": "1",
+      "remarks": "Storm channel. Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Storm"
+    },
+    {
+      "url": "https://crowsnest.amagi.tv/version",
+      "name": "crowsnest",
+      "upgradable": "1",
+      "remarks": "Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport-Not In Scope"
+    },
+    {
+      "url": "https://whispermedia.amagi.tv/version",
+      "name": "whispermedia",
+      "upgradable": "1",
+      "remarks": "Storm channels. Not Applicable for CP Upgrade",
+      "version": "v5.8.0\n",
+      "amagi_id": "AMG00464",
+      "product": "Storm"
+    },
+    {
+      "url": "https://scripps-hungary-ftp.amagi.tv/version",
+      "name": "scripps-hungary-ftp",
+      "upgradable": "1",
+      "remarks": "Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport-Not In Scope"
+    },
+    {
+      "url": "https://turner.amagi.tv/version",
+      "name": "turner",
+      "upgradable": "1",
+      "remarks": "All channels are terminated",
+      "version": "v3.53.39_auto_scale\n",
+      "amagi_id": "",
+      "product": "Cloudport-Terminated"
+    },
+    {
+      "url": "https://sgrep.amagi.tv/version",
+      "name": "sgrep",
+      "upgradable": "1",
+      "remarks": "Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport-Not In Scope"
+    },
+    {
+      "url": "https://viacom.amagi.tv/version",
+      "name": "viacom",
+      "upgradable": "1",
+      "remarks": "Storm channel. Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Storm"
+    },
+    {
+      "url": "https://scripps-storm.amagi.tv/version",
+      "name": "scripps-storm",
+      "upgradable": "1",
+      "remarks": "Storm channels. Not applicable for CP upgrade",
+      "version": "v5.17.24\n",
+      "amagi_id": "",
+      "product": "Storm"
+    },
+    {
+      "url": "https://tern-ftp.amagi.tv/version",
+      "name": "tern-ftp",
+      "upgradable": "1",
+      "remarks": "Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport-Not In Scope"
+    },
+    {
+      "url": "https://zee.amagi.tv/version",
+      "name": "zee",
+      "upgradable": "1",
+      "remarks": "Storm Channel. CP upgrade not applicable",
+      "version": "v5.8.0\n",
+      "amagi_id": "",
+      "product": "Storm"
+    },
+    {
+      "url": "https://sentry.amagi.tv/version",
+      "name": "sentry",
+      "upgradable": "1",
+      "remarks": "Not in scope",
+      "version": "\n\n\n\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <meta name=\"theme-color\" content=\"#000000\">\n\n  <link rel=\"icon\" type=\"image/png\" href=\"https://sentry.amagi.tv/_static/1648654129/sentry/images/favicon.png\">\n\n  <link rel=\"apple-touch-icon\" href=\"https://sentry.amagi.tv/_static/1648654129/sentry/images/logos/apple-touch-icon.png\">\n  <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"https://sentry.amagi.tv/_static/1648654129/sentry/images/logos/apple-touch-icon-76x76.png\">\n  <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://sentry.amagi.tv/_static/1648654129/sentry/images/logos/apple-touch-icon-120x120.png\">\n  <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://sentry.amagi.tv/_static/1648654129/sentry/images/logos/apple-touch-icon-152x152.png\">\n\n  <link rel=\"mask-icon\" sizes=\"any\" href=\"https://sentry.amagi.tv/_static/1648654129/sentry/images/logos/logo-sentry.svg\" color=\"#FB4226\">\n\n  <link href=\"/_static/dist/sentry/entrypoints/sentry.css\" rel=\"stylesheet\"/>\n\n  \n\n  <title>Login | Sentry</title>\n\n  \n    <script>window.__initialData = {\"singleOrganization\":true,\"supportEmail\":\"nanda.gokula@amagi.com\",\"urlPrefix\":\"https://sentry.amagi.tv\",\"version\":{\"current\":\"21.6.3\",\"latest\":\"22.3.0\",\"build\":\"7345c40e3a7c7aa5b460d722a0a7b7b5f083da84\",\"upgradeAvailable\":true},\"features\":[],\"distPrefix\":\"/_static/dist/sentry/\",\"needsUpgrade\":false,\"dsn\":\"https://171963c97cc84c84bb1eac973bdd1d24@sentry.amagi.tv/1\",\"dsn_requests\":\"\",\"statuspage\":null,\"messages\":[],\"apmSampling\":0.0,\"isOnPremise\":true,\"invitesEnabled\":true,\"gravatarBaseUrl\":\"https://secure.gravatar.com\",\"termsUrl\":null,\"privacyUrl\":null,\"lastOrganization\":null,\"languageCode\":\"en\",\"userIdentity\":{\"ip_address\":\"182.72.211.138\"},\"csrfCookieName\":\"sc\",\"sentryConfig\":{\"dsn\":\"https://171963c97cc84c84bb1eac973bdd1d24@sentry.amagi.tv/1\",\"release\":\"7345c40e3a7c7aa5b460d722a0a7b7b5f083da84\",\"environment\":\"production\",\"whitelistUrls\":[]},\"demoMode\":false,\"isAuthenticated\":false,\"user\":null};</script>\n  \n\n  <script>// if the ads.js file loads below it will mark this variable as false\n    window.adblockSuspected = true;\n    // Initialize this so that we can queue up tasks when Sentry SPA is initialized\n    window.__onSentryInit = window.__onSentryInit || [];</script>\n\n  <script>try {\n    var reg = new RegExp(/\\/organizations\\/(.+?(?=(\\/|$)))(\\/|$)/, 'i');\n    var organization = window.location.pathname;\n    var slug = organization.match(reg)[1];\n\n    function promiseRequest(url) {\n      return new Promise(function (resolve, reject) {\n        var xhr = new XMLHttpRequest();\n        xhr.open('GET', url);\n        xhr.onload = function () {\n          try {\n            this.status >= 200 && this.status < 300\n              ? resolve(JSON.parse(xhr.response))\n              : reject([this.status, this.statusText]);\n          } catch(e) {\n            reject();\n          }\n        };\n        xhr.onerror = function () {\n          reject([this.status, this.statusText]);\n        };\n        xhr.send();\n      });\n    }\n\n    function makeUrl(suffix) {\n      return '/api/0/organizations/' + slug + suffix;\n    }\n\n\n    // There are probably more, but this is at least one case where\n    // this should not be treated as a slug\n    if (slug !== 'new') {\n      var preloadPromises = { orgSlug: slug };\n      window.__sentry_preload = preloadPromises;\n\n      preloadPromises.organization = promiseRequest(makeUrl('/?detailed=0'));\n      preloadPromises.projects =  promiseRequest(makeUrl('/projects/?all_projects=1&collapse=latestDeploys'));\n      preloadPromises.teams = promiseRequest(makeUrl('/teams/'));\n    }\n  } catch(_) {}</script>\n\n  \n\n  \n  <script src=\"/_static/dist/sentry/entrypoints/runtime.js\"></script>\n\n  \n    \n    <script src=\"/_static/dist/sentry/entrypoints/app.js\"></script>\n  \n\n  \n  \n\n  \n  <script src=\"/_static/1648654129/sentry/js/ads.js\"></script>\n  \n\n<script>window.__onSentryInit = window.__onSentryInit || [];\n  window.__onSentryInit.push({\n    name: 'passwordStrength',\n    input: '#id_registration_password',\n    element: '.password-strength',\n  });</script>\n\n</head>\n\n<body class=\"narrow auth org-login\">\n  \n  <div class=\"app\">\n    \n\n    \n    \n\n\n<div id=\"blk_alerts\" class=\"messages-container\"></div>\n<div id=\"blk_indicators\"></div>\n\n<script>window.__onSentryInit = window.__onSentryInit || [];\n  window.__onSentryInit.push({\n    name: 'renderReact',\n    component: 'SystemAlerts',\n    container: '#blk_alerts',\n    props: {\n      className: 'alert-list',\n    },\n  });\n  window.__onSentryInit.push({\n    name: 'renderReact ',\n    component: 'Indicators',\n    container: '#blk_indicators',\n    props: {\n      className: 'indicators-container',\n    },\n  });</script>\n\n\n\n    \n\n    <div class=\"container\">\n      <div class=\"content\">\n        \n<div class=\"pattern-bg\"></div>\n\n<div class=\"box\">\n  <div class=\"auth-sidebar\">\n    <a href=\"/\">\n      <span class=\"icon-sentry-logo\"></span>\n    </a>\n  </div>\n  <section class=\"org-login\">\n    \n<div>\n  <div class=\"align-center p-t-2\">\n    <img src=\"/_static/1648654129/sentry/images/logos/default-organization-logo.png\" class=\"org-avatar\">\n    <h3>Amagi Media Labs</h3>\n  </div>\n\n  \n    <div class=\"auth-container p-t-0 border-bottom\">\n      <ul class=\"nav nav-tabs auth-toggle m-b-0\">\n        <li class=\"active\">\n          <a href=\"#login\" data-toggle=\"tab\">Login</a>\n        </li>\n        \n        \n          <li class=\"join-request\">\n            <a href=\"/join-request/amagi/\">\n              <svg width=\"37\" height=\"31\" viewBox=\"0 0 37 31\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0)\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"currentColor\">\n<rect width=\"36\" height=\"31\" transform=\"translate(0.262695)\" fill=\"white\"/>\n<path d=\"M25.0029 9.9302C24.5547 8.25773 22.8356 7.26521 21.1631 7.71335L20.6455 5.78149C23.3849 5.04747 26.2007 6.67316 26.9347 9.41256C27.6687 12.152 26.043 14.9677 23.3036 15.7018L22.786 13.7699C24.4585 13.3218 25.451 11.6027 25.0029 9.9302Z\"/>\n<path d=\"M2.52864 15.9521C2.67312 16.4913 3.22735 16.8113 3.76654 16.6668L4.28418 18.5986C2.67805 19.029 1.02715 18.0758 0.596792 16.4697C0.166431 14.8636 1.11958 13.2127 2.72571 12.7823L3.24334 14.7142C2.70415 14.8587 2.38417 15.4129 2.52864 15.9521Z\"/>\n<path d=\"M9.31756 29.0904L6.875 19.9746L8.80685 19.457L11.1469 28.1903L12.9937 27.6955L12.2281 24.838C12.1606 24.586 12.1555 24.3215 12.2133 24.0672L12.8689 21.1837L12.1651 18.5571L14.097 18.0395L14.8261 20.7607C14.8936 21.0126 14.8987 21.2772 14.8409 21.5315L14.1853 24.415L15.0281 27.5602C15.2574 28.416 14.7495 29.2956 13.8938 29.5248L11.2822 30.2246C10.4264 30.4539 9.54685 29.9461 9.31756 29.0904Z\"/>\n<path d=\"M17.5998 4.07355L13.8132 8.53283C13.6228 8.75713 13.3773 8.92808 13.1009 9.02892L4.48516 12.1717L6.11329 18.2479L15.1461 16.6618C15.4359 16.6109 15.734 16.6362 16.0111 16.7352L21.52 18.7038L23.8831 18.0706L19.9629 3.44036L17.5998 4.07355ZM16.1363 2.70714C16.3596 2.44413 16.6578 2.2554 16.9911 2.1661L19.7371 1.43031C20.6428 1.18762 21.5738 1.72513 21.8165 2.63089L25.8931 17.8448C26.1358 18.7506 25.5983 19.6816 24.6925 19.9243L21.9465 20.6601C21.6133 20.7494 21.2607 20.735 20.9358 20.6189L15.4133 18.6455L6.1867 20.2657C5.32007 20.4178 4.48077 19.8827 4.25304 19.0328L2.4817 12.4221C2.25397 11.5722 2.71327 10.6891 3.53988 10.3876L12.3404 7.1774L16.1363 2.70714Z\"/>\n<path d=\"M28.3174 12.5909C28.5935 12.1126 29.2051 11.9487 29.6834 12.2249L33.3668 14.3515C33.8451 14.6276 34.009 15.2392 33.7328 15.7175C33.4567 16.1958 32.8451 16.3597 32.3668 16.0835L28.6834 13.9569C28.2051 13.6808 28.0412 13.0692 28.3174 12.5909Z\"/>\n<path d=\"M28.8018 8.91246C28.6588 8.37899 28.9754 7.83066 29.5089 7.68771L34.4512 6.36341C34.9847 6.22047 35.533 6.53706 35.676 7.07052C35.8189 7.60399 35.5024 8.15232 34.9689 8.29527L30.0265 9.61957C29.4931 9.76251 28.9447 9.44593 28.8018 8.91246Z\"/>\n<path d=\"M26.5438 5.96826C26.0655 5.69212 25.9016 5.08053 26.1777 4.60224L28.3043 0.91885C28.5805 0.440558 29.1921 0.276683 29.6704 0.552825C30.1487 0.828967 30.3125 1.44056 30.0364 1.91885L27.9098 5.60224C27.6336 6.08053 27.0221 6.2444 26.5438 5.96826Z\"/>\n</g>\n<defs>\n<clipPath id=\"clip0\">\n<rect width=\"36\" height=\"31\" fill=\"white\" transform=\"translate(0.262695)\"/>\n</clipPath>\n</defs>\n</svg>\n\n              Request to Join\n            </a>\n          </li>\n        \n      </ul>\n    </div>\n\n    <div class=\"tab-content basic-login\">\n      <div class=\"tab-pane active\" id=\"login\">\n        <div class=\"auth-container\">\n          <div class=\"auth-form-column\">\n            <form class=\"form-stacked\" action=\"\" method=\"post\" autocomplete=\"off\">\n              <input type='hidden' name='csrfmiddlewaretoken' value='TX4JxpIJBLz9dPOYdIZWk0fcMXhlD9LkgIo6OQ4Skg5xvI3t33YcJfBNH8ZGHEDR' />\n\n              <input type=\"hidden\" name=\"op\" value=\"login\" />\n\n              \n\n\n              \n                \n\n\n    \n    <div id=\"div_id_username\" class=\"form-group\">\n        \n            <label for=\"id_username\" class=\"control-label  requiredField\">\n                Account<span class=\"asteriskField\">*</span>\n            </label>\n        \n\n        \n\n        \n\n        \n            \n                <div class=\"controls \">\n                    <input type=\"text\" name=\"username\" placeholder=\"username or email\" tabindex=\"1\" maxlength=\"128\" class=\"textinput textInput form-control\" required id=\"id_username\" />\n                    \n\n\n    \n\n\n\n\n    \n\n\n\n                </div>\n            \n        \n    </div>\n    \n\n\n              \n                \n\n\n    \n    <div id=\"div_id_password\" class=\"form-group\">\n        \n            <label for=\"id_password\" class=\"control-label  requiredField\">\n                Password<span class=\"asteriskField\">*</span>\n            </label>\n        \n\n        \n\n        \n\n        \n            \n                <div class=\"controls \">\n                    <input type=\"password\" name=\"password\" placeholder=\"password\" tabindex=\"2\" class=\"textinput textInput form-control\" required id=\"id_password\" />\n                    \n\n\n    \n\n\n\n\n    \n\n\n\n                </div>\n            \n        \n    </div>\n    \n\n\n              \n\n              <div class=\"auth-footer m-t-1\">\n                <button type=\"submit\" class=\"btn btn-primary\">Login</button>\n                <a class=\"secondary\" href=\"/account/recover/\">Lost your password?</a>\n              </div>\n            </form>\n          </div>\n          \n        </div>\n      </div>\n      <div class=\"tab-pane\" id=\"register\">\n        <div class=\"auth-container\">\n          <div class=\"auth-form-column\">\n            <form class=\"form-stacked\" action=\"\" method=\"post\" autocomplete=\"off\">\n              <input type='hidden' name='csrfmiddlewaretoken' value='TX4JxpIJBLz9dPOYdIZWk0fcMXhlD9LkgIo6OQ4Skg5xvI3t33YcJfBNH8ZGHEDR' />\n\n              <input type=\"hidden\" name=\"op\" value=\"register\" />\n\n              \n\n\n              \n\n              <div class=\"password-strength\"></div>\n              <div class=\"auth-footer m-t-1\">\n                <button type=\"submit\" class=\"btn btn-primary\">Register</button>\n                <a class=\"secondary\" href=\"https://sentry.io/privacy/\" target=\"_blank\">\n                  Privacy Policy\n                </a>\n              </div>\n            </form>\n          </div>\n        </div>\n      </div>\n    </div>\n  \n</div>\n\n  </section>\n</div>\n\n\n      </div>\n    </div>\n  </div>\n  \n\n  \n  \n  <script>document.addEventListener('DOMContentLoaded', function() {\n      const el = document.querySelector('#sign-out');\n      if (el) {\n        el.addEventListener('click', function() {\n          document.modalLogoutForm.submit();\n        });\n      }\n    });</script>\n\n</body>\n</html>\n",
+      "amagi_id": "",
+      "product": "Cloudport-NotInScope"
+    },
+    {
+      "url": "https://tern.amagi.tv/version",
+      "name": "tern",
+      "upgradable": "1",
+      "remarks": "Storm Channel. CP upgrade not applicable",
+      "version": "v5.17.24\n",
+      "amagi_id": "",
+      "product": "Storm"
+    },
+    {
+      "url": "https://ary.amagi.tv/version",
+      "name": "ary",
+      "upgradable": "1",
+      "remarks": "Storm Channel. CP upgrade not applicable",
+      "version": "v5.0.15\n",
+      "amagi_id": "",
+      "product": "Storm"
+    },
+    {
+      "url": "https://alshallal.amagi.tv/version",
+      "name": "alshallal",
+      "upgradable": 0,
+      "remarks": "",
+      "version": "v7.4.24\n",
+      "amagi_id": "AMG01480",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://amgepg.amagi.tv/version",
+      "name": "amgepg",
+      "upgradable": "1",
+      "remarks": "Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport-Not In Scope"
+    },
+    {
+      "url": "https://venntvb.amagi.tv/version",
+      "name": "venntvb",
+      "upgradable": "1",
+      "remarks": "",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://discovery-storm.amagi.tv/version",
+      "name": "discovery-storm",
+      "upgradable": "1",
+      "remarks": "Storm Channel. CP upgrade not applicable",
+      "version": "v5.17.24\n",
+      "amagi_id": "",
+      "product": "Storm"
+    },
+    {
+      "url": "https://lyd.amagi.tv/version",
+      "name": "lyd",
+      "upgradable": 0,
+      "remarks": "",
+      "version": "v7.4.25\n",
+      "amagi_id": "AMG00640",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://volantmedia-storm.amagi.tv/version",
+      "name": "volantmedia-storm",
+      "upgradable": "1",
+      "remarks": "Storm Channel. CP upgrade not applicable",
+      "version": "v5.17.24\n",
+      "amagi_id": "AMG00642",
+      "product": "Storm"
+    },
+    {
+      "url": "https://mobtv.amagi.tv/version",
+      "name": "mobtv",
+      "upgradable": 0,
+      "remarks": "Planned to be upgraded to 7.5.21 in Apr 22",
+      "version": "v7.4.25\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://viacomcbs.amagi.tv/version",
+      "name": "viacomcbs",
+      "upgradable": 0,
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://nbcu-ott.amagi.tv/version",
+      "name": "nbcu-ott",
+      "upgradable": 0,
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://uptv.amagi.tv/version",
+      "name": "uptv",
+      "upgradable": 0,
+      "remarks": "",
+      "version": "v7.5.18\n",
+      "amagi_id": "AMG00495",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://blueantmediacanada.amagi.tv/version",
+      "name": "blueantmediacanada",
+      "upgradable": 0,
+      "remarks": "",
+      "version": "v7.5.20.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://blueantmediausa.amagi.tv/version",
+      "name": "blueantmediausa",
+      "upgradable": 0,
+      "remarks": "",
+      "version": "v7.5.18.5\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://foxme.amagi.tv/version",
+      "name": "foxme",
+      "upgradable": "1",
+      "remarks": "Storm channel. Not in scope",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Storm"
+    },
+    {
+      "url": "https://rushstreet.amagi.tv/version",
+      "name": "rushstreet",
+      "upgradable": "1",
+      "remarks": "Decommisioned.",
+      "version": "unknown",
+      "amagi_id": "AMG00605",
+      "product": "Cloudport-Decommisioned"
+    },
+    {
+      "url": "https://tarima.amagi.tv/version",
+      "name": "tarima",
+      "upgradable": "1",
+      "remarks": "Decommisioned",
+      "version": "unknown",
+      "amagi_id": "",
+      "product": "Cloudport-Decommisioned"
+    },
+    {
+      "url": "https://foxweather.amagi.tv/version",
+      "name": "foxweather",
+      "upgradable": 0,
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    },
+    {
+      "url": "https://cmg.amagi.tv/version",
+      "name": "cmg",
+      "upgradable": 0,
+      "remarks": "",
+      "version": "v7.5.21.1\n",
+      "amagi_id": "",
+      "product": "Cloudport"
+    }
+  ],
+  "lastupdated": 1648732339000
+}
