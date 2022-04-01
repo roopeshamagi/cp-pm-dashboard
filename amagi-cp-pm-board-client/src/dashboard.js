@@ -72,19 +72,6 @@ class Dashboard extends React.Component{
     this.handleAccountsTracker = this.handleAccountsTracker.bind(this);
   }
 
-  handleStrings()
-  {
-    this.props.showScreen("strings");
-  }
-  handleCaptureCards()
-  {
-    this.props.showScreen("capturecards");
-  }
-  
-  handlePerformanceTests()
-  {
-      this.props.showScreen("performanceTests");
-  }
   handleCloudportVersions()
   {
     this.props.showScreen("cloudportVersions");
@@ -104,7 +91,7 @@ class Dashboard extends React.Component{
   }
   handleCloudportVersionsAge()
   {
-    this.props.showScreen("AccountsTable");
+    this.props.showScreen("cloudportVersions");
   }
   
   render() {
@@ -118,9 +105,7 @@ class Dashboard extends React.Component{
             <Button onClick={this.handleCloudportVersions} variant="outlined" color="primary">
                 Version Tracker
             </Button>
-            <Button onClick={this.handleCloudportVersionsAge} variant="outlined" color="primary">
-                Version Age
-            </Button>
+            
             <Button onClick={this.handleAccountsTracker} variant="outlined" color="primary">
                 Account Tracker
             </Button>

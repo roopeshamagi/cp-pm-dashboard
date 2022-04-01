@@ -98,7 +98,7 @@ export default function Table(props) {
     //var url = props.getServerURL() + "serverusage";
     var url = "http://localhost:3006/versions";
 
-    console.log("getDataFromServer URL -->"+url);
+    //console.log("getDataFromServer URL -->"+url);
 
     $.ajax({
                url: url,
@@ -108,7 +108,7 @@ export default function Table(props) {
                  console.log("Invalid credentials. Retry!");
                },
                success: function (result) {
-                   console.log("result-->"+JSON.stringify(result));
+                   //console.log("result-->"+JSON.stringify(result));
                    if(result.versions.length > 0 )
                    {
                     extractTableData(result.versions);
@@ -141,11 +141,11 @@ export default function Table(props) {
   {
 
     //updatedData.last_modified = props.getUserDetails().user_id;
-    console.log("updated STB: "+JSON.stringify(updatedData));
+    //console.log("updated STB: "+JSON.stringify(updatedData));
     //return;
 
     var url = "http://localhost:3006/updateCustomerDetails";
-    console.log("updateData URL -->"+url);
+    //console.log("updateData URL -->"+url);
 
     $.ajax({
                url: url,
@@ -156,7 +156,7 @@ export default function Table(props) {
                  console.log("Invalid credentials. Retry!");
                },
                success: function (result) {
-                   console.log("updateData Details-->"+JSON.stringify(result));
+                   //console.log("updateData Details-->"+JSON.stringify(result));
 
                },
                data: JSON.stringify(updatedData)
@@ -301,7 +301,7 @@ export default function Table(props) {
 
           new Promise(resolve => {
 
-            console.log("newData",newData);
+            //console.log("newData",newData);
             setTimeout(() => {
               resolve();
               if (oldData) {
@@ -310,7 +310,7 @@ export default function Table(props) {
                   data[data.indexOf(oldData)] = newData;
                   updateData(newData);
 
-                  console.log("data details",data);
+                  //console.log("data details",data);
 
                   return { ...prevState, data };
                 });
