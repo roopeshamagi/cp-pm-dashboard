@@ -11,6 +11,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
+import * as cfg from "./config.js"
 
 var tiledata = [];
 
@@ -95,8 +96,7 @@ export default function Table(props) {
 
   function getVersionsList()
   {
-    //var url = props.getServerURL() + "serverusage";
-    var url = "http://localhost:3006/versions";
+    var url = cfg.getServerURL() + "versions";//"https://cp-versions.amagiengg.io/api/v1/versions";
 
     //console.log("getDataFromServer URL -->"+url);
 
@@ -144,7 +144,7 @@ export default function Table(props) {
     //console.log("updated STB: "+JSON.stringify(updatedData));
     //return;
 
-    var url = "http://localhost:3006/updateCustomerDetails";
+    var url = cfg.getServerURL() + "updateCustomerDetails";//"https://cp-versions.amagiengg.io/api/v1/updateCustomerDetails";
     //console.log("updateData URL -->"+url);
 
     $.ajax({

@@ -54,12 +54,8 @@ export default function Table(props) {
 
     columns: [
 
-      { title: 'Amagi Id', field: 'amgid' ,editable: 'never'},
-      { title: 'Account Name', field: 'accountName' ,editable: 'never'},
-      { title: 'Opportunities Won', field: 'noofwonopportunities',editable: 'never'},
-      { title: 'Region', field: 'region' ,editable: 'never'},
-      { title: 'Owner', field: 'ownerName' ,editable: 'never'},
-      { title: 'CSM', field: 'csm',editable: 'never' }
+      { title: 'Version', field: 'version' ,editable: 'never'},
+      { title: 'Released Date', field: 'releasedDate', type:'date', editable: 'never'},
     ],
     data: [
     ],
@@ -71,27 +67,27 @@ export default function Table(props) {
 
   useEffect(() => {
           //getUserList();
-          getAccountList();
+          getVersionsList();
           
   },[]
 );
 
 
-  function getAccountList()
+  function getVersionsList()
   {
-    var url = cfg.getServerURL() + "accountslist";//https://cp-versions.amagiengg.io/api/v1/accountslist";
+    var url = cfg.getServerURL() + "versionsReleaseDates"; //"https://cp-versions.amagiengg.io/api/v1/versionsReleaseDates";
 
-    console.log("getDataFromServer URL -->"+url);
+    //console.log("getDataFromServer URL -->"+url);
 
     $.ajax({
                url: url,
                type: 'get',
-               headers: {  'Access-Control-Allow-Origin': 'https://uajvp6x6xi.execute-api.us-east-1.amazonaws.com' },
+               headers: {  'Access-Control-Allow-Origin': '*' },
                error: function(){
                  console.log("Invalid credentials. Retry!");
                },
                success: function (result) {
-                   console.log("status-->"+JSON.stringify(result));
+                   //.log("result-->"+JSON.stringify(result));
                    if(result.length > 0 )
                    {
                     extractTableData(result);
@@ -101,13 +97,6 @@ export default function Table(props) {
                   }
                },
            });
-
-}
-
-function pad(num, size) {
-  var s = num+"";
-  while (s.length < size) s = "0" + s;
-  return s;
 }
 
   function extractTableData(dataArr)
@@ -116,29 +105,23 @@ function pad(num, size) {
       for(let i=0; i<dataArr.length; i++)
       {
           var obj = {};
-          obj.amgid = dataArr[i].AMGID;
-          obj.accountName = dataArr[i].AccountName;
-          obj.csm= dataArr[i].CSM;
-          obj.noofwonopportunities= dataArr[i].NumberOfWonOpportunities;
-          obj.region= dataArr[i].Region;
-          if(dataArr[i].Owner)
-          {
-            obj.ownerName = dataArr[i].Owner.Name;
-          }
-          
+          obj.version = dataArr[i].version;
+          var dtStr = dataArr[i].releasedDate.split('/');
+          var dt = new Date(dtStr[2],dtStr[1]-1,dtStr[0]);
+          obj.releasedDate = dt;
           dispArr.push(obj);
       }
 
       setState({...state,data:dispArr});
-    }
-    
- /* function updateData(updatedData)
+  }
+  /*function updateData(updatedData)
   {
-    updatedData.last_modified = props.getUserDetails().user_id;
+
+    //updatedData.last_modified = props.getUserDetails().user_id;
     console.log("updated STB: "+JSON.stringify(updatedData));
     //return;
 
-    var url = cfg.getServerURL() + "updateServerUsage";
+    var url = "https://cp-versions.amagiengg.io/api/v1/updateCustomerDetails";
     console.log("updateData URL -->"+url);
 
     $.ajax({
@@ -155,47 +138,14 @@ function pad(num, size) {
                },
                data: JSON.stringify(updatedData)
            });
-
-  }
-
-  function deleteJob(deletedJob)
-  {
-    console.log("deletedJob = ",deletedJob.job_id);
-    var jobArr = [];
-    var jobObj = {};
-    jobObj.job_id = deletedJob.job_id;
-    jobArr.push(jobObj);
-
-    //getjob with the id coming from updatedData
-    console.log("token = ",localStorage.token);
-    var url = cfg.getServerURL() + "removeJobs"+"?token="+localStorage.token;
-    console.log("deletedJob  URL -->"+url);
-
-    $.ajax({
-               url: url,
-               type: 'delete',
-               dataType: 'json',
-               contentType: 'application/json',
-               error: function(){
-                 console.log("Invalid credentials. Retry!");
-               },
-               success: function (data) {
-                   console.log("deletedJob Details-->"+JSON.stringify(data));
-
-               },
-               data: JSON.stringify(jobArr)
-           });
-
-
   }*/
-  function handleBack()
+
+    function handleBack()
     {
       props.showScreen("dashboard");
     }
 
     function getBackgroundcolor(rowData) {
-
-
        var ret;
        if(rowData == 'Not Working' )
         {
@@ -215,12 +165,7 @@ function pad(num, size) {
 
 
       var ret;
-      if(rowData.used_by == 'tatasky' )
-       {
-        ret = 'lightgray';
-                          //Booked
-       }
-      else if(rowData == 'Working')
+     if(rowData == 'Working')
       {
       ret = 'green';                      //Assigned
 
@@ -287,11 +232,6 @@ function pad(num, size) {
   return (
     <div className="tablecointainer">
 
-  <Button    variant="outlined"
-      color="primary"  onClick = {handleBack}>
-      Back
-    </Button>
-
     <Dialog open={open} onClose={handleClose}
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description">
@@ -310,7 +250,7 @@ function pad(num, size) {
 
 
     <MaterialTable
-      title="Accounts Tracker"
+      title="Cloudport Release Dates"
       columns={state.columns}
       data={state.data}
       

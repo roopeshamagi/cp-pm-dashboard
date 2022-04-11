@@ -19,6 +19,7 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
+import * as cfg from "./config.js"
 
 const maincointainer = {
   display: 'flex',
@@ -124,7 +125,7 @@ class Chart extends Component{
   getReleaseDatesChartData()
   {
     var temp_this = this;
-    var url = "http://localhost:3006/versionsReleaseDates";
+    var url = cfg.getServerURL() + "versionsReleaseDates";//"https://cp-versions.amagiengg.io/api/v1/versionsReleaseDates";
     ////console.log("getDataFromServer URL -->"+url);
 
     $.ajax({
@@ -197,7 +198,7 @@ class Chart extends Component{
 
   getCustomersChartData(){
     var temp_this = this;
-    var url = "http://localhost:3006/versions";
+    var url = cfg.getServerURL() + "versions";//"https://cp-versions.amagiengg.io/api/v1/versions";
     ////console.log("getDataFromServer URL -->"+url);
 
     $.ajax({

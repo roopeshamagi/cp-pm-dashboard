@@ -24,8 +24,8 @@ class App extends React.Component {
   
   getServerURL()
   {
-    return "http://127.0.0.1:3006/";
-    //return "http://54.245.191.20:8686/";
+    //return "http://127.0.0.1:3006/";
+    return "https://cp-versions.amagiengg.io/api/v1/";
   }
   getUserDetails()
   {
@@ -48,10 +48,10 @@ class App extends React.Component {
      {
 
        case "dashboard":
-       displayPage = <Dashboard showScreen={this.showScreen} getUserDetails = {this.getUserDetails}/>;
+       displayPage = <Dashboard showScreen={this.showScreen} getUserDetails = {this.getUserDetails} getServerURL={this.getServerURL}/>;
        break;
        case "cloudportVersions":
-       displayPage = <Chart showScreen={this.showScreen}/>;
+       displayPage = <Chart showScreen={this.showScreen} getServerURL={this.getServerURL}/>;
        break;
        case "AccountsTable":
         displayPage = <AccountsTable showScreen={this.showScreen} getUserDetails={this.getUserDetails} getServerURL={this.getServerURL}/>;
