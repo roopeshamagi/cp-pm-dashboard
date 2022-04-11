@@ -1,0 +1,170 @@
+[
+    {
+      "version": "7.3.27",
+      "releasedDate": "28/05/2020"
+    },
+    {
+      "version": "7.5.12",
+      "releasedDate": "18/06/2021"
+    },
+    {
+      "version": "7.5.18",
+      "releasedDate": "24/09/2021"
+    },
+    {
+      "version": "7.3.15.1",
+      "releasedDate": "10/01/2020"
+    },
+    {
+      "version": "7.2.13",
+      "releasedDate": "05/11/2019"
+    },
+    {
+      "version": "6.3.16",
+      "releasedDate": "22/10/2018"
+    },
+    {
+      "version": "7.4.25",
+      "releasedDate": "14/07/2021"
+    },
+    {
+      "version": "3.53.8.1",
+      "releasedDate": "14/08/2017"
+    },
+    {
+      "version": "7.4.15.1",
+      "releasedDate": "06/08/2020"
+    },
+    {
+      "version": "7.4.18",
+      "releasedDate": "10/11/2020"
+    },
+    {
+      "version": "7.1.14.1",
+      "releasedDate": "17/06/2019"
+    },
+    {
+        "version": "7.5.18.1",
+        "releasedDate": "28/09/2021"
+      },
+      {
+        "version": "7.5.18.3",
+        "releasedDate": "26/10/2021"
+      },
+      {
+        "version": "7.5.18.7",
+        "releasedDate": "03/12/2021"
+      },
+    {
+      "version": "7.5.18.1.1",
+      "releasedDate": "27/10/2021"
+    },
+    {
+      "version": "7.3.16",
+      "releasedDate": "20/01/2020"
+    },
+    {
+      "version": "ARGELIOS-CI-PR-colorssa_new__3.53.10.2_back_in_counter_v1",
+      "releasedDate": "NA"
+    },
+    {
+      "version": "7.2.14",
+      "releasedDate": "22/11/2019"
+    },
+    {
+      "version": "7.3.28",
+      "releasedDate": "01/07/2020"
+    },
+    {
+      "version": "6.3.19.1",
+      "releasedDate": "28/02/2019"
+    },
+    {
+      "version": "7.1.11.1",
+      "releasedDate": "10/05/2019"
+    },
+    {
+      "version": "vr-pip-playout",
+      "releasedDate": "NA"
+    },
+    {
+      "version": "7.5.14.3",
+      "releasedDate": "18/08/2021"
+    },
+    {
+      "version": "3.53.48.1",
+      "releasedDate": "28/02/2018"
+    },
+    {
+      "version": "release-3.53.48.2",
+      "releasedDate": "NA"
+    },
+    {
+      "version": "7.5.20",
+      "releasedDate": "10/11/2021"
+    },
+    {
+        "version": "7.5.21.1",
+        "releasedDate": "14/12/2021"
+      },
+    {
+      "version": "3.53.28-crf",
+      "releasedDate": "NA"
+    },
+    {
+      "version": "6.3.12.7",
+      "releasedDate": "06/06/2019"
+    },
+    {
+      "version": "7.2.14.4",
+      "releasedDate": "03/02/2020"
+    },
+    {
+      "version": "6.3.19.4.1",
+      "releasedDate": "02/01/2020"
+    },
+    {
+      "version": "7.4.24",
+      "releasedDate": "23/06/2021"
+    },
+    {
+      "version": "7.4.14.1",
+      "releasedDate": "13/07/2020"
+    },
+    {
+      "version": "7.3.15",
+      "releasedDate": "07/01/2020"
+    },
+    {
+      "version": "3.53.39_auto_scale",
+      "releasedDate": "12/02/2019"
+    },
+    {
+      "version": "7.1.7.7",
+      "releasedDate": "02/05/2019"
+    },
+    {
+      "version": "2.4.14",
+      "releasedDate": "NA"
+    },
+    {
+      "version": "rs-add-picasso-vod-changes",
+      "releasedDate": "NA"
+    },
+    {
+      "version": "6.3.16.7",
+      "releasedDate": "11/02/2019"
+    },
+    {
+      "version": "3.53.48.1-dynamic-graphics-v2.2",
+      "releasedDate": "17/06/2020"
+    },
+    {
+      "version": "6.3.9.1",
+      "releasedDate": "17/09/2018"
+    },
+    {
+      "version": "7.3.10.1",
+      "releasedDate": "17/10/2019"
+    }
+  ]
